@@ -1,0 +1,19 @@
+(Add Method Parameter) – Introduces a new parameter to an existing method.
+(Remove Method Parameter) – Eliminates an existing parameter from a method signature.
+(Rename Method) – Changes the name of a method while preserving its behavior.
+(Rename Class) – Changes the name of a class without altering its structure.
+(Rename Package) – Changes the name of a package declaration.
+(Rename Field) – Changes the name of a class or instance variable.
+(Extract Class) – Moves a group of related fields and methods from an existing class into a newly created class.
+(Extract Superclass) – Creates a new superclass to encapsulate shared attributes and behavior from two or more existing classes.
+(Inline Method) – Replaces a method call with the method's body.
+(Pull Up Method) – Pull a method from a child class (subclass) in the original code to its parent class (superclass) in the transformed version.
+(Push Down Method) – Push a method from a parent class (superclass) in the original code to one or more of its child classes (subclasses) in the transformed version.
+(Pull Up Field) – Pull a field from a child class (subclass) in the original code to its parent class (superclass) in the transformed version.
+(Push Down Field) – Push a field from a parent class (superclass) in the original code to one or more of its child classes (subclasses) in the transformed version.
+(Inline Class) – Merges a class into another when it is too small or redundant.
+(Extract Interface) – Creates a new interface from existing method(s) in a class.
+(Move Method) – Relocates a method to a more appropriate class.
+(Move Field) – Relocates a field to a more appropriate class.
+(Replace Magic Number with Constant) – Replaces a literal number with a named constant.
+(Encapsulate Field) – Change a field access from not private to private and create get and set methods.

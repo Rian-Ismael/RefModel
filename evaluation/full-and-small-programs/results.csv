@@ -1,0 +1,93 @@
+,,,,,
+Refactoring,Phi4:14B,Claude,RMiner,Total,
+Add Parameter,97%,100%,100%,100,
+Encapsulate Field,100%,100%,100%,100,
+Move Method,54%,93%,100%,100,
+Pull Up Field,85%,100%,100%,100,
+Pull Up Method,80%,96%,96%,47,
+Push Down Field,52%,100%,100%,100,
+Push Down Method,9%,82%,27%,11,
+Rename Class,90%,99%,100%,100,
+Rename Field,65%,99%,100%,100,
+Rename Method,99%,100%,74%,100,
+Total,"79,4%",98.5%,95.8%,858,
+,,,,,
+Refactoring,Phi4:14B,Claude,RMiner,Total,
+Add Parameter,97,100,100,100,
+Encapsulate Field,100,100,100,100,
+Move Method,54,93,100,100,
+Pull Up Field,85,100,100,100,
+Pull Up Method,38,45,45,47,
+Push Down Field,52,100,100,100,
+Push Down Method,1,9,3,11,
+Rename Class,90,99,100,100,
+Rename Field,65,99,100,100,
+Rename Method,99,100,74,100,
+Total,681,845,822,858,
+,,,,,
+Phi4:14B,,,,,
+Refactoring Type,TP,FP,FN,Precision,Recall
+Total,681,526,177,"56,4%","79,4%"
+Add Method Parameter,97,2,3,"98,0%","97,0%"
+Encapsulate Field,100,11,0,"90,1%","100,0%"
+Extract Class,0,3,0,"0,0%","0,0%"
+Extract Interface,0,2,0,"0,0%","0,0%"
+Extract Method,0,2,0,"0,0%","0,0%"
+Extract Superclass,0,22,0,"0,0%","0,0%"
+Inline Method,0,17,0,"0,0%","0,0%"
+Inline Parameter,0,1,0,"0,0%","0,0%"
+Move Class,0,1,0,"0,0%","0,0%"
+Move Field,0,10,0,"0,0%","0,0%"
+Move Method,54,35,46,"60,7%","54,0%"
+Pull Down Field,0,3,0,"0,0%","0,0%"
+Pull Down Method,0,15,0,"0,0%","0,0%"
+Pull Up Field,85,181,15,"32,0%","85,0%"
+Pull Up Method,38,127,9,"23,0%","80,9%"
+Push Down Field,52,23,48,"69,3%","52,0%"
+Push Down Method,1,33,10,"2,9%","9,1%"
+Remove Field,0,4,0,"0,0%","0,0%"
+Remove Method Parameter,0,12,0,"0,0%","0,0%"
+Rename Class,90,0,10,"100,0%","90,0%"
+Rename Field,65,2,35,"97,0%","65,0%"
+Rename Method,99,9,1,"91,7%","99,0%"
+Rename Package,0,4,0,"0,0%","0,0%"
+Replace Magic Number with Constant,0,7,0,"0,0%","0,0%"
+,,,,,
+Claude,,,,,
+Refactoring Type,TP,FP,FN,Precision,Recall
+Total,845,110,13,"88,5%","98,5%"
+Add Method Parameter,100,13,0,"88,5%","100,0%"
+Encapsulate Field,100,2,0,"98,0%","100,0%"
+Extract Interface,0,3,0,"0,0%","0,0%"
+Inline Method,0,25,0,"0,0%","0,0%"
+Move Field,0,18,0,"0,0%","0,0%"
+Move Method,93,5,7,"94,9%","93,0%"
+Pull Down Field,0,1,0,"0,0%","0,0%"
+Pull Down Method,0,2,0,"0,0%","0,0%"
+Pull Up Field,100,13,0,"88,5%","100,0%"
+Pull Up Method,45,2,2,"95,7%","95,7%"
+Push Down Field,100,3,0,"97,1%","100,0%"
+Push Down Method,9,15,2,"37,5%","81,8%"
+Remove Method Parameter,0,1,0,"0,0%","0,0%"
+Rename Class,99,0,1,"100,0%","99,0%"
+Rename Field,99,0,1,"100,0%","99,0%"
+Rename Method,100,1,0,"99,0%","100,0%"
+Replace Magic Number with Constant,0,6,0,"0,0%","0,0%"
+,,,,,
+RMiner,,,,,
+Refactoring Type,TP,FP,FN,Precision,Recall
+Total,822,98,36,"89,3%","95,8%"
+Add Class Modifier,0,14,0,"0,0%","0,0%"
+Add Method Parameter,100,2,0,"98,0%","100,0%"
+Change Method Access Modifier,0,14,0,"0,0%","0,0%"
+Encapsulate Field,100,14,0,"87,7%","100,0%"
+Extract Variable,0,28,0,"0,0%","0,0%"
+Move Field,0,7,0,"0,0%","0,0%"
+Move Method,100,0,0,"100,0%","100,0%"
+Pull Up Field,100,5,0,"95,2%","100,0%"
+Pull Up Method,45,0,2,"100,0%","95,7%"
+Push Down Field,100,0,0,"100,0%","100,0%"
+Push Down Method,3,5,8,"37,5%","27,3%"
+Rename Class,100,4,0,"96,2%","100,0%"
+Rename Field,100,1,0,"99,0%","100,0%"
+Rename Method,74,4,26,"94,9%","74,0%"

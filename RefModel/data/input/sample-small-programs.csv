@@ -1,0 +1,46 @@
+input,output
+"package Package_0;
+import Package_1.*;
+public class ClassId_0 extends ClassId_2 {
+  protected long n_0(  int a){
+    return 1;
+  }
+}
+
+package Package_1;
+import Package_0.*;
+public class ClassId_1 extends ClassId_0 {
+  public long m_0(){
+    return k_0(2);
+  }
+}
+
+package Package_1;
+public class ClassId_2 {
+  protected long k_0(  int a){
+    return 0;
+  }
+}","package Package_0;
+import Package_1.*;
+public class ClassId_0 extends ClassId_2 {
+  protected long k_0k_0(  int a){
+    return 1;
+  }
+}
+
+
+package Package_1;
+import Package_0.*;
+public class ClassId_1 extends ClassId_0 {
+  public long m_0(){
+    return k_0(2);
+  }
+}
+
+
+package Package_1;
+public class ClassId_2 {
+  protected long k_0(  int a){
+    return 0;
+  }
+}"

@@ -61,10 +61,11 @@ If you are using RefModel in your research, please cite the following paper:
 
 ```bibtex
 @inproceedings{refModel2025,
-  author = {Pedro Simões and Rohit Gheyi and Rian Melo and Jonhnanthan Oliveira and Márcio Ribeiro and Wesley K. G. Assunção},
-  title = {RefModel: Detecting Refactorings using Foundation Models},
+  author    = {Pedro Simões and Rohit Gheyi and Rian Melo and Jonhnanthan Oliveira and Márcio Ribeiro and Wesley K. G. Assunção},
+  title     = {RefModel: Detecting Refactorings using Foundation Models},
   booktitle = {Brazilian Symposium on Software Engineering},
-  year = {2025},
+  year      = {2025},
+  url       = {https://arxiv.org/abs/2507.11346}
 }
 ```
 

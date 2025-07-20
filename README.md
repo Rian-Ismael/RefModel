@@ -1,5 +1,8 @@
 # RefModel
 
+![Logo-RefModel](docs/RefModel.png)
+
+
 ### About 
 RefModel is a tool that leverages foundation models to automatically detect code refactoring operations in program transformations. By default, it analyzes both the original and transformed versions of a program to identify refactorings. However, when dealing with large programs that exceed the model’s context window, RefModel can alternatively operate by analyzing only the code differences (diffs) introduced by the transformation.
 

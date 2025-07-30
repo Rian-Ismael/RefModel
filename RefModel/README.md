@@ -23,7 +23,7 @@ refmodel/
 ## Installation
 
 ```bash
-git clone https://github.com/Rian-Ismael/RefModel.git
+git clone https://github.com/brain-ufcg/RefModel.git
 cd refmodel
 
 # (optional) virtual env
